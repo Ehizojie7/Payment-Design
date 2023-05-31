@@ -1,0 +1,759 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+
+*{
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  display: flex;
+  gap: 120px;
+  max-width: 900px;
+  background-color: white;
+  justify-content: space-between;
+  margin-left: 40px;
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the shadow properties as desired */
+  
+}
+
+.frame-one{
+  margin-left: 50px;
+  max-width: 800px;
+  flex: 2;
+  
+}
+
+.watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  gap: 1px;
+  padding: 10px;
+}
+
+.digit {
+  font-size: 36px;
+  color: white;
+  padding: 0 5px;
+  border-radius: 3px;
+  background-color: black;
+ 
+}
+
+.separator {
+  font-size: 36px;
+  color: black;
+}
+
+.ace-coin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.wallet{
+  height: 20px;
+}
+
+
+.edit-container {
+  display: flex;
+  align-items: center;
+  color: blue;
+}
+
+.edit-text {
+  margin-right: 5px;
+}
+
+.pen-icon {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.pen-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: blue;
+ 
+}
+
+
+.ccn-container{
+  position: relative;
+}
+
+.mc{
+  position: absolute;
+  height: 20px;
+  left: 5px;
+  top: 6px;
+  bottom: 1px;
+}
+
+.mc-v{
+  position: absolute;
+  height: 20px;
+  right: 10px;
+  top: 6px;
+}
+
+
+
+
+.form{
+  margin-bottom: 15px;
+  
+
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.number{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+ 
+}
+
+
+
+
+.text{
+  font-weight: bold;
+  padding: 0;
+}
+
+
+.text2{
+  font-size: small;
+  padding: 0;
+  color: grey;
+}
+
+input.ccn {
+  padding-left: 40px;
+}
+
+
+
+.ccn{
+  width: 742px;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 0px solid none;
+  padding-right: 20px;
+}
+
+.cvv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+ 
+}
+
+.cvv-text{
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  border-radius: 4px;
+  border: 0px solid none;
+}
+
+
+.cvv-container{
+  position: relative;
+}
+
+.keypad{
+  position: absolute;
+  right: 8px;
+  height: 18px;
+  top: 7px;
+}
+
+
+
+.date-input{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 4px;
+  border: 0px solid none;
+  
+
+}
+
+.expiry{
+  display: flex;
+  gap: 5px;
+}
+  
+.mm{
+  height: 30px;
+  width: 138px;
+  border-radius: 4px;
+  border: 0px solid none;
+  text-align: center;
+  
+}
+
+
+
+.password-container{
+  position: relative;
+}
+
+.keypad1{
+  position: absolute;
+  right: 10px;
+  height: 18px;
+  top: 7px;
+}
+
+
+
+
+
+.number{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pay{
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 255, 0.979);
+  border: none;
+  border-radius: 5px;
+  color: antiquewhite;
+  margin-top: 40px;
+}
+
+
+
+
+
+.frame-two{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  
+}
+
+.card-container{
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.6); /* Adjust the alpha value to control transparency */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the shadow properties as desired */
+}
+
+.main-card{
+  background-color: lavender;
+  
+  width: 300px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 7px;
+  position: relative;
+ 
+ 
+  
+}
+
+.space{
+  flex: 1;
+}
+
+.space-2{
+  margin-top: 25px;
+}
+
+.company{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.dot{
+  border-top: dotted;
+  border-top-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.dot-dot{
+  width: 30px;
+  border-radius: 70%;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: -13px;
+  left: -14px;
+
+}
+
+.dot-dot1{
+  width: 30px;
+  border-radius: 60%;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: -13px;
+  right: -14px;
+
+}
+
+
+
+
+.icon{
+  margin-right: 20px;
+}
+
+.you{
+  margin-left: 20px;
+}
+
+.usd{
+  display: flex;
+  justify-self: center;
+ flex-direction: column;
+ margin-top: 30px;
+  
+}
+
+
+.second-card{
+  position: absolute;
+  bottom: 300px;
+  left: 50px;
+  width: 200px;
+    background-color: white; /* Adjust the alpha value to control transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the shadow properties as desired */
+    backdrop-filter: blur(10px); 
+    margin-bottom: 2px;
+    padding-left: 10px;
+  
+  height: 265px;  
+}
+
+
+
+
+.you1{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.circle{
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+
+}
+
+.sc{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+ 
+}
+
+
+
+.jonthan{
+  padding-bottom: 15px;
+  padding-top: 25px;
+}
+
+
+.image{
+  width: 60px;
+      height: 60px;
+      background-color: #f1f1f1;
+      position: relative;
+      overflow: hidden;
+}
+
+.image1{
+  width: 20px;
+      height: 20px;
+      background-color: #f1f1f1;
+      position: relative;
+      overflow: hidden;
+}
+
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+
+
+@media only screen and (min-width: 385px) and (max-width: 454px) {
+  /* Styles for screens with a width between 841px and 1024px */
+  /* Add your CSS styles here */
+  body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 2px;
+    
+    
+    
+  }
+
+
+
+
+  .edit-container{
+    display: none;
+  }
+
+  .header{
+    max-width: 270px;
+    margin-left: 5px;
+  }
+
+  .watch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+   
+    gap: 1px;
+    padding: 5px;
+  }
+
+  .form{
+    margin-bottom: 15px;
+    max-width: 280px;
+    margin-right: 5px;
+    
+  
+  }
+
+ 
+
+.cvv{
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 22px;
+}
+
+
+.cvv-text{
+  max-width: 220px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 0px solid none;
+  padding-right: 10px;
+}
+
+
+
+  
+.ccn{
+  max-width: 220px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 0px solid none;
+  padding-right: 10px;
+}
+
+.date-input{
+  flex-direction: column;
+  
+}
+
+.expiry{
+  margin-right: 20px;
+  width: 270px;
+}
+
+.mm{
+  max-width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  
+  
+}
+
+.number{
+  flex-direction: column;
+
+}
+
+.gap1{
+  display: flex;
+align-items: center;
+justify-content: center;
+ 
+  gap: 15px;
+}
+
+
+
+
+
+
+
+  .frame-two{
+    flex: 1;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    
+  }
+
+  
+
+}
+
+
+
+@media only screen and (min-width: 345px) and (max-width: 384px) {
+
+
+  body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 2px;
+    
+    
+    
+  }
+  
+  .edit-container{
+    display: none;
+  }
+
+  .header{
+    width: 200px;
+    margin-right: 32px;
+    gap: 35px;
+  }
+
+  .ace-coin{
+    padding-right: 5px;
+  }
+
+  .watch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    max-width: 50px;
+
+   
+    gap: 1px;
+    padding: 5px;
+  }
+
+  .form{
+    margin-bottom: 15px;
+    max-width: 280px;
+    margin-right: 5px;
+    
+  
+  }
+
+ 
+
+.cvv{
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 22px;
+}
+
+
+.cvv-text{
+  max-width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 0px solid none;
+  padding-right: 10px;
+}
+
+
+
+  
+.ccn{
+  max-width: 170px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 0px solid none;
+  padding-right: 10px;
+}
+
+.date-input{
+  flex-direction: column;
+  
+}
+
+.expiry{
+  margin-right: 20px;
+  width: 100px;
+}
+
+.mm{
+  max-width: 60px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  
+  
+}
+
+.number{
+  flex-direction: column;
+
+}
+
+.gap1{
+  display: flex;
+align-items: center;
+justify-content: center;
+ 
+  gap: 15px;
+}
+
+
+
+
+
+
+
+  .frame-two{
+    flex: 1;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    
+  }
+
+  .form{
+    margin-bottom: 15px;
+    max-width: 220px;
+    margin-right: 5px;
+    
+  
+  }
+  
+}
+
+
+
+
+
+@media only screen and (min-width: 640px) and (max-width: 840px) {
+  /* Styles for screens with a width between 640px and 840px */
+  /* Add your CSS styles here */
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    justify-content: space-between;
+    margin-left: 50px;
+    width: 80%;
+
+    
+  }
+
+  .header{
+    max-width: 500px;
+    margin-left: 20px;
+  }
+
+  .form{
+    margin-bottom: 15px;
+    max-width: 500px;
+    margin-left: 20px;
+    
+  
+  }
+
+
+
+  
+.ccn{
+  max-width: 430px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 0px solid none;
+  padding-right: 10px;
+}
+
+  .frame-two{
+    flex: 1;
+    display: flex;
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    
+  }
+}
+
